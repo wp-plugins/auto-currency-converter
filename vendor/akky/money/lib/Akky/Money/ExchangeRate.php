@@ -26,7 +26,7 @@ class ExchangeRate {
 
         $rate = $this->getRate($from, $to);
         if (!$rate) {
-            throw new RuntimeException('rate info not found');
+            throw new \RuntimeException('rate info not found');
         }
         return $src * $rate;
     }

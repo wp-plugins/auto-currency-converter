@@ -100,19 +100,24 @@ class AutoCurrencyConverter
         if (!in_array($locale, $supportedLocales)) {
             $locale = 'en';
         }
-        switch ($currency) {
-        case 'usd':
-            $jpy = $this->_exchangeRate->convert($value, 'usd', 'jpy');
-            if ($jpy > 1000) { $jpy = floor($jpy); }
+		try {
+	        switch ($currency) {
+	        case 'usd':
+	            $jpy = $this->_exchangeRate->convert($value, 'usd', 'jpy');
+	            if ($jpy > 1000) { $jpy = floor($jpy); }
 
-            return '(' . \Akky\Money\JpyFormatter::format($jpy, $locale) . ')';
-        case 'jpy':
-        default:
-            $usd = $this->_exchangeRate->convert($value, 'jpy', 'usd');
-            if ($usd > 1000) { $usd = floor($usd); }
+	            return '(' . \Akky\Money\JpyFormatter::format($jpy, $locale) . ')';
+	        case 'jpy':
+	        default:
+	            $usd = $this->_exchangeRate->convert($value, 'jpy', 'usd');
+	            if ($usd > 1000) { $usd = floor($usd); }
 
-            return '(' . \Akky\Money\UsdFormatter::format($usd, $locale) . ')';
-        }
+	            return '(' . \Akky\Money\UsdFormatter::format($usd, $locale) . ')';
+	        }
+		} catch (\RuntimeException $ex) {
+			// for case rate info unavailable, do nothing
+			return '';
+		}
     }
 
     /**
