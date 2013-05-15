@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Apollo Bar 1.0\n"
+"POT-Creation-Date: 2013-03-29 16:01+0900\n"
+"PO-Revision-Date: 2013-03-29 16:01+0900\n"
+"Last-Translator: Roomshare Japan <siteadmin@roomshare.jp>\n"
+"Language-Team: Akky AKIMOTO <my surname at gmail>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\\.\n"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:18
+msgid "Auto Currency Converter"
+msgstr "自動通貨変換"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:19
+msgid "Auto Currency Converter Setting"
+msgstr "自動通貨変換 設定"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:107
+#: ..\./includes/Akky/AutoCurrencyConverter.php:119
+msgid " Setting"
+msgstr "の設定"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:165
+msgid "Usage"
+msgstr "利用法"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:177
+msgid "Date to begin conversion"
+msgstr "変換開始日"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:184
+msgid "starting date from where the conversion works"
+msgstr "変換が有効になる開始日"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:215
+msgid "The date is not a proper format."
+msgstr "日付の指定が正しくありません。"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:231
+msgid "Add exchanged ammount after the money notations in posts/pages."
+msgstr "投稿・固定ページ中の通貨表現に、換算した外貨を併記します。"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:232
+msgid ""
+"example: <br />\"$199,666\"<br /> in a post will be changed to <br />"
+"\"$199,666(￥15,973,280)\"<br /><br />The real ammount will be different as "
+"the plugin to use the latest exchange rate.\""
+msgstr ""
+"例:  記事中の<br />\"199,666ドル\"<br /> の表記は <br />\"199,666ドル(1597万"
+"3280円)\"<br />となります。<br />実際の値は最新の通貨レートによって計算されま"
+"す。\""
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:233
+msgid "At now, only US dollars and Japanese yen are supported."
+msgstr "現在、米ドルと日本円のみサポートしています。"
+
+#: ..\./includes/Akky/AutoCurrencyConverter.php:238
+msgid ""
+"Set a date after which you make the conversion effective. Only on the pages/"
+"posts which modified after the date will have converted money info, so your "
+"past posts which you manually added similar info will not be affected."
+msgstr ""
+"通貨変換を有効にしたい日付を指定してください。この日付以降に編集された投稿・"
+"固定ページでのみ、変換が行われます。以前に手動で同様の換算結果を書いている場"
+"合にご指定ください。"
+
+#~ msgid "Announcements"
+#~ msgstr "アナウンス"
+
+#~ msgid "Announcement"
+#~ msgstr "アナウンス"
+
+#~ msgid "Add New"
+#~ msgstr "新規追加"
+
+#~ msgid "Add New Announcement"
+#~ msgstr "新規アナウンス追加"
+
+#~ msgid "All items"
+#~ msgstr "アナウンス一覧"
+
+#~ msgid "Edit Announcement"
+#~ msgstr "アナウンスの編集"
+
+#~ msgid "New Announcement"
+#~ msgstr "新規アナウンス"
+
+#~ msgid "View Announcement"
+#~ msgstr "アナウンスを見る"
+
+#~ msgid "Search Announcements"
+#~ msgstr "アナウンスの検索"
+
+#~ msgid "No Announcements found"
+#~ msgstr "アナウンスは見つかりませんでした"
+
+#~ msgid "No Announcements found in Trash"
+#~ msgstr "ゴミ箱にアナウンスはありません"
+
+#~ msgid "Apollo Bar"
+#~ msgstr "Apollo Bar"
+
+#~ msgid "Scheduling"
+#~ msgstr "スケジュール"
+
+#~ msgid "Start date"
+#~ msgstr "開始日"
+
+#~ msgid "End date"
+#~ msgstr "終了日"
+
+#~ msgid "Download Apollo Bar"
+#~ msgstr "Apollo Barの入手"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Apollo Bar Options"
+#~ msgstr "Apollo Barオプション"
+
+#~ msgid ""
+#~ "The Apollo Bar is a simple notification plugin. This is a settings page. "
+#~ "Setup the plugin color and other options. To add a notification text, go "
+#~ "to Apollo Bar (custom post type) menu and create a new post, setup the "
+#~ "Scheduling options and publish."
+#~ msgstr ""
+#~ "Apollo Bar(アポロバー)は簡単な通知のプラグインです。これは設定ページです。"
+#~ "色やその他のオプションを設定してください。アナウンスの文面は、(カスタム・"
+#~ "ポスト・タイプ)のApollo Barメニューから新規投稿として作成し、スケジュール"
+#~ "オプションを指定して公開してください。"
+
+#~ msgid "General Settings"
+#~ msgstr "一般設定"
+
+#~ msgid "Enable Apollo Bar?"
+#~ msgstr "Apollo Barを有効にする?"
+
+#~ msgid "Enable Apollo Bar Logo?"
+#~ msgstr "Apollo Barロゴを有効にする?"
+
+#~ msgid "Chose a color skin"
+#~ msgstr "色を選択"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid "Donate"
+#~ msgstr "寄付"
+
+#~ msgid ""
+#~ "Want to help make this plugin even better? All donations are used to "
+#~ "improve this plugin. Thanks! Donors enter their own contribution amount."
+#~ msgstr ""
+#~ "プラグインの改良をサポートしませんか? すべての寄付はこのプラグインの改善に"
+#~ "充てられます。ありがとうございます!"
+
+#~ msgid "Or"
+#~ msgstr "または"
+
+#~ msgid "Vote for the plugin on Wordpress.org."
+#~ msgstr "Wordpress.orgでプラグインに投票してください。"
+
+#~ msgid "Please refer to the side of plugin on your blog."
+#~ msgstr "あなたのブログのサイドバーで紹介してください。"
+
+#~ msgid "CodeArt"
+#~ msgstr "CodeArt"
+
+#~ msgid "Fallow us on Twitter"
+#~ msgstr "ツイッターでフォロー"
+
+#~ msgid "Fallow us on Google+"
+#~ msgstr "Google+でフォロー"
+
+#~ msgid "Newsletter Subscribe"
+#~ msgstr "ニュースレターを購読"
+
+#, fuzzy
+#~ msgid "Apollo Bar Title"
+#~ msgstr "Apollo Bar"

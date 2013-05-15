@@ -1,0 +1,216 @@
+[
+    {
+        "name": "doctrine/lexer",
+        "version": "v1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/lexer.git",
+            "reference": "v1.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/doctrine/lexer/archive/v1.0.zip",
+            "reference": "v1.0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-01-12 18:59:04",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Lexer\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "https://github.com/schmittjoh",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "lexer",
+            "parser"
+        ]
+    },
+    {
+        "name": "eabay/oow",
+        "version": "dev-master-dev",
+        "version_normalized": "dev-master-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eabay/oow.git",
+            "reference": "9bd0d14bba9ee9735ca2b8f0f097f27af1128041"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eabay/oow/zipball/9bd0d14bba9ee9735ca2b8f0f097f27af1128041",
+            "reference": "9bd0d14bba9ee9735ca2b8f0f097f27af1128041",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/annotations": "1.*",
+            "php": ">=5.3.2"
+        },
+        "time": "2013-01-15 18:00:20",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Oow": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Erhan Abay",
+                "email": "erhanabay@gmail.com"
+            }
+        ],
+        "description": "Object-Oriented approach to WordPress plugin development",
+        "homepage": "https://github.com/eabay/oow",
+        "keywords": [
+            "plugin",
+            "wordpress",
+            "wordpress plugin development"
+        ]
+    },
+    {
+        "name": "doctrine/annotations",
+        "version": "v1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/annotations.git",
+            "reference": "v1.1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/annotations/zipball/v1.1.1",
+            "reference": "v1.1.1",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/lexer": "1.*",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "doctrine/cache": "1.*"
+        },
+        "time": "2013-04-20 08:30:17",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Annotations\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com",
+                "homepage": "http://www.jwage.com/"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com",
+                "homepage": "http://www.instaclick.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com",
+                "homepage": "https://github.com/schmittjoh",
+                "role": "Developer of wrapped JMSSerializerBundle"
+            }
+        ],
+        "description": "Docblock Annotations Parser",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "docblock",
+            "parser"
+        ]
+    },
+    {
+        "name": "akky/money",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "git@bitbucket.org:akky/money.git",
+            "reference": "6ecbb083e7ca57c7a3616cac516a1b26d29531c4"
+        },
+        "require": {
+            "doctrine/annotations": "1.*",
+            "php": ">=5.3.2"
+        },
+        "time": "2013-05-13 02:02:25",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Akky": "lib/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Akky Akimoto",
+                "email": "akimoto+money@gmail.com"
+            }
+        ],
+        "description": "Currency notation converter",
+        "homepage": "https://bitbucket.org/akky/money",
+        "keywords": [
+            "currency",
+            "dollar",
+            "exchange",
+            "foreign exchange",
+            "jpy",
+            "money",
+            "usd"
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+{
+	"require" : {
+		"eabay/oow": "dev-master-dev",
+        "akky/money": "dev-master"
+	},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:akky/money.git"
+        }
+    ]
+}
