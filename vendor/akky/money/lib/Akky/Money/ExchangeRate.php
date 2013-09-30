@@ -4,17 +4,10 @@ namespace Akky\Money;
 
 /**
  * Exchange Rate fetcher from the web
- *
- * This currently uses WordPress cache function so unable to use independently.
- *
  */
 class ExchangeRate {
-
+    // in-process cache to avoid multiple API calls within the same process
     protected $_cached = array();
-
-    function __construct() {
-
-    }
 
     /**
      * convert US dollar to Yen
