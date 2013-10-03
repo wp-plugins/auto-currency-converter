@@ -44,7 +44,6 @@ class AutoCurrencyConverter
      * pass-1: let converters to find money notations and add short codes
      *
      * @Filter(tag="the_content")
-     * @Filter(tag="the_title")
      */
     public function tagifyConvertedMoney($text)
     {
