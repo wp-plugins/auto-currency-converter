@@ -1,11 +1,11 @@
 === Auto Currency Converter ===
 Contributors: akky
-Version 1.0.3
-Tags: currency, money, Japan, yen, Japanese, USA, dollar, American, calculation
+Version 1.0.4
+Tags: currency, money, exchange, Japan, yen, Japanese, USA, dollar, JPY, USD
 Home: http://wordpress.org/extend/plugins/auto-currency-converter
 Support: @akky
 Requires at least: 3.3.0
-Tested up to: 3.6.1
+Tested up to: 4.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,7 +35,7 @@ For bloggers who already did such conversion manually, the plugin has an option 
    - few thousand dollars
    - a couple of dollars
  - numbers bigger than billion are not handled
- - billion/trillion are in US style, not UK style (can not support both)
+ - billion/trillion are in US style, not UK style (because it can not be supported both notations simultaneously)
 
 = How are Japanese zenkaku digits handled? =
 
@@ -52,6 +52,10 @@ This section describes how to install the plugin and get it working.
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.4 =
+* make it work even allow_url_fopen is off.
+* fixed - not caching the rates when data-fetching failed.
 
 = 1.0.3 =
 * stop trying to convert money in title. only money in body are processed.
